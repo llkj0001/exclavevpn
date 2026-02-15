@@ -1,0 +1,42 @@
+.class public final Landroidx/emoji2/text/UnprecomputeTextOnModificationSpannable$PrecomputedTextDetector_28;
+.super Landroidx/collection/internal/Lock;
+.source "r8-map-id-ddc868269b5f15a1c0ffcf2d1905347fd29ce3109536c0333fca56aa39eaa932"
+
+
+# virtual methods
+.method public final isPrecomputedText(Ljava/lang/CharSequence;)Z
+    .locals 1
+
+    .line 1
+    invoke-static {p1}, Landroidx/camera/camera2/internal/ZslControlImpl$$ExternalSyntheticLambda0;->m$1(Ljava/lang/Object;)Z
+
+    .line 4
+    move-result v0
+
+    .line 5
+    if-nez v0, :cond_1
+
+    .line 7
+    instance-of p1, p1, Landroidx/core/text/PrecomputedTextCompat;
+
+    .line 9
+    if-eqz p1, :cond_0
+
+    .line 11
+    goto :goto_0
+
+    .line 12
+    :cond_0
+    const/4 p1, 0x0
+
+    .line 13
+    return p1
+
+    .line 14
+    :cond_1
+    :goto_0
+    const/4 p1, 0x1
+
+    .line 15
+    return p1
+.end method

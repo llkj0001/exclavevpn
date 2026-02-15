@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="added">
+        <item quantity="other">%d items added</item>
+        <item quantity="one">%d item added</item>
+    </plurals>
+    <plurals name="apps_message">
+        <item quantity="other">%d applications</item>
+        <item quantity="one">%d application</item>
+    </plurals>
+    <plurals name="group_status_proxies">
+        <item quantity="other">%d profiles</item>
+        <item quantity="one">%d profile</item>
+    </plurals>
+    <plurals name="group_status_proxies_subscription">
+        <item quantity="other">%1$d profiles | Last update: %2$s</item>
+        <item quantity="one">%1$d profile | Last update: %2$s</item>
+    </plurals>
+    <plurals name="group_updated">
+        <item quantity="other">%1$s: Updated %2$d profiles</item>
+        <item quantity="one">%1$s: Updated %2$d profile</item>
+    </plurals>
+    <plurals name="lines">
+        <item quantity="other">%d lines</item>
+        <item quantity="one">%d line</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d new notifications</item>
+        <item quantity="one">%d new notification</item>
+    </plurals>
+    <plurals name="profile_multi_import_message">
+        <item quantity="other">Are you sure you want to import %1$d profiles to %2$s?</item>
+        <item quantity="one">Are you sure you want to import %1$d profile to %2$s?</item>
+    </plurals>
+    <plurals name="removed">
+        <item quantity="other">%d items removed</item>
+        <item quantity="one">%d item removed</item>
+    </plurals>
+    <plurals name="tcp_connections">
+        <item quantity="other">%d TCP connections</item>
+        <item quantity="one">%d TCP connection</item>
+    </plurals>
+    <plurals name="udp_connections">
+        <item quantity="other">%d UDP connections</item>
+        <item quantity="one">%d UDP connection</item>
+    </plurals>
+</resources>

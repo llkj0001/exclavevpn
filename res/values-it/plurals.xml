@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="added">
+        <item quantity="other">%d proxy aggiunti</item>
+        <item quantity="one">Aggiunto</item>
+        <item quantity="many"></item>
+    </plurals>
+    <plurals name="apps_message">
+        <item quantity="other">%d Applicazioni</item>
+        <item quantity="one">%d Applicazioni</item>
+        <item quantity="many"></item>
+    </plurals>
+    <plurals name="group_status_proxies">
+        <item quantity="other">%d Proxy</item>
+        <item quantity="one">%d Proxy</item>
+        <item quantity="many"></item>
+    </plurals>
+    <plurals name="group_status_proxies_subscription">
+        <item quantity="other">%1$d Proxy | Aggiornato/i su %2$s</item>
+        <item quantity="one">%1$d Proxy | Aggiornato/i su %2$s</item>
+        <item quantity="many"></item>
+    </plurals>
+    <plurals name="group_updated">
+        <item quantity="other">%1$s: Aggiornato/i %2$d proxy</item>
+        <item quantity="one">%1$s: Aggiornato/i %2$d proxy</item>
+        <item quantity="many"></item>
+    </plurals>
+    <plurals name="lines">
+        <item quantity="other">%d Linee</item>
+        <item quantity="one">%d Linee</item>
+        <item quantity="many"></item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d nuove notifiche</item>
+        <item quantity="one">%d nuova notifica</item>
+    </plurals>
+    <plurals name="removed">
+        <item quantity="other">%d elementi rimossi</item>
+        <item quantity="one">Rimosso</item>
+        <item quantity="many"></item>
+    </plurals>
+    <plurals name="tcp_connections">
+        <item quantity="other">%d Connessioni TCP</item>
+        <item quantity="one">%d Connessioni TCP</item>
+        <item quantity="many"></item>
+    </plurals>
+    <plurals name="udp_connections">
+        <item quantity="other">%d Connessioni UDP</item>
+        <item quantity="one">%d Connessioni UDP</item>
+        <item quantity="many"></item>
+    </plurals>
+</resources>

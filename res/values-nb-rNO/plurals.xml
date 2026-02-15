@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="added">
+        <item quantity="other">%d fullmakter lagt til</item>
+        <item quantity="one">La til</item>
+    </plurals>
+    <plurals name="apps_message">
+        <item quantity="other">%d programmer</item>
+        <item quantity="one">%d programmer</item>
+    </plurals>
+    <plurals name="group_status_proxies">
+        <item quantity="other">%d mellomtjenere</item>
+        <item quantity="one">%d mellomtjenere</item>
+    </plurals>
+    <plurals name="group_status_proxies_subscription">
+        <item quantity="other">%1$d mellomtjenere | Oppdatert %2$s</item>
+        <item quantity="one">%1$d mellomtjenere | Oppdatert %2$s</item>
+    </plurals>
+    <plurals name="group_updated">
+        <item quantity="other">%1$s: Oppdaterte %2$d mellomtjenere</item>
+        <item quantity="one">%1$s: Oppdaterte %2$d mellomtjenere</item>
+    </plurals>
+    <plurals name="lines">
+        <item quantity="other">%d linjer</item>
+        <item quantity="one">%d linjer</item>
+    </plurals>
+    <plurals name="removed">
+        <item quantity="other">%d elementer fjernet</item>
+        <item quantity="one">Fjernet</item>
+    </plurals>
+    <plurals name="tcp_connections">
+        <item quantity="other">%d TCP-tilkoblinger</item>
+        <item quantity="one">%d TCP-tilkoblinger</item>
+    </plurals>
+    <plurals name="udp_connections">
+        <item quantity="other">%d UDP-tilkoblinger</item>
+        <item quantity="one">%d UDP-tilkoblinger</item>
+    </plurals>
+</resources>

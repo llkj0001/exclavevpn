@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="apps_message">
+        <item quantity="other">%d applications</item>
+        <item quantity="one">%d applications</item>
+        <item quantity="many"></item>
+    </plurals>
+    <plurals name="group_status_proxies">
+        <item quantity="other">%d proxys</item>
+        <item quantity="one">%d proxys</item>
+        <item quantity="many"></item>
+    </plurals>
+    <plurals name="group_status_proxies_subscription">
+        <item quantity="other">%1$d proxys | Mis à jour le %2$s</item>
+        <item quantity="one">%1$d proxys | Mis à jour le %2$s</item>
+        <item quantity="many"></item>
+    </plurals>
+    <plurals name="group_updated">
+        <item quantity="other">%1$s : %2$d proxys mis à jour</item>
+        <item quantity="one">%1$s : %2$d proxys mis à jour</item>
+        <item quantity="many"></item>
+    </plurals>
+    <plurals name="lines">
+        <item quantity="other">%d lignes</item>
+        <item quantity="one">%d lignes</item>
+        <item quantity="many"></item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d nouvelles notifications</item>
+        <item quantity="one">%d nouvelle notification</item>
+    </plurals>
+    <plurals name="removed">
+        <item quantity="other">%d éléments supprimés</item>
+        <item quantity="one">%d élément supprimé</item>
+        <item quantity="many"></item>
+    </plurals>
+    <plurals name="tcp_connections">
+        <item quantity="other">%d connexions TCP</item>
+        <item quantity="one">%d connexions TCP</item>
+        <item quantity="many"></item>
+    </plurals>
+    <plurals name="udp_connections">
+        <item quantity="other">%d connexions UDP</item>
+        <item quantity="one">%d connexions UDP</item>
+        <item quantity="many"></item>
+    </plurals>
+</resources>

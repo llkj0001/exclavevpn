@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="added">
+        <item quantity="other"></item>
+        <item quantity="zero">مضاف</item>
+        <item quantity="one">%d تمت إضافة البروکسیز</item>
+        <item quantity="two"></item>
+        <item quantity="few"></item>
+        <item quantity="many"></item>
+    </plurals>
+    <plurals name="apps_message">
+        <item quantity="other">%d تطبيقات</item>
+        <item quantity="zero">%d تطبيقات</item>
+        <item quantity="one">%d تطبيقات</item>
+        <item quantity="two">%d تطبيقات</item>
+        <item quantity="few">%d تطبيقات</item>
+        <item quantity="many">%d تطبيقات</item>
+    </plurals>
+    <plurals name="group_status_proxies">
+        <item quantity="other">%d البروکسیز</item>
+        <item quantity="zero">%d البروکسیز</item>
+        <item quantity="one">%d البروکسیز</item>
+        <item quantity="two">%d البروکسیز</item>
+        <item quantity="few">%d البروکسیز</item>
+        <item quantity="many">%d البروکسیز</item>
+    </plurals>
+    <plurals name="group_status_proxies_subscription">
+        <item quantity="other">%d البروکسیز | تم التحديث في</item>
+        <item quantity="zero">%d البروکسیز | تم التحديث في</item>
+        <item quantity="one">%d البروکسیز | تم التحديث في</item>
+        <item quantity="two">%d البروکسیز | تم التحديث في</item>
+        <item quantity="few">%d البروکسیز | تم التحديث في</item>
+        <item quantity="many">%d البروکسیز | تم التحديث في</item>
+    </plurals>
+    <plurals name="group_updated">
+        <item quantity="other">%1$s: تم تحديث %2$d البروکسیز</item>
+        <item quantity="zero">%1$s: تم تحديث %2$d البروکسیز</item>
+        <item quantity="one">%1$s: تم تحديث %2$d البروکسیز</item>
+        <item quantity="two">%1$s: تم تحديث %2$d البروکسیز</item>
+        <item quantity="few">%1$s: تم تحديث %2$d البروکسیز</item>
+        <item quantity="many">%1$s: تم تحديث %2$d البروکسیز</item>
+    </plurals>
+    <plurals name="lines">
+        <item quantity="other">%d سطور</item>
+        <item quantity="zero">%d سطور</item>
+        <item quantity="one">%d سطور</item>
+        <item quantity="two">%d سطور</item>
+        <item quantity="few">%d سطور</item>
+        <item quantity="many">%d سطور</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d إشعار جديد</item>
+        <item quantity="zero">%d إشعار جديد</item>
+        <item quantity="one">إشعار جديد واحد (%d)</item>
+        <item quantity="two">إشعاران جديدان (%d)</item>
+        <item quantity="few">%d إشعارات جديدة</item>
+        <item quantity="many">%d إشعارًا جديدًا</item>
+    </plurals>
+    <plurals name="removed">
+        <item quantity="other"></item>
+        <item quantity="zero">محذوف</item>
+        <item quantity="one">%d العناصر التي تمت إزالتها</item>
+        <item quantity="two"></item>
+        <item quantity="few"></item>
+        <item quantity="many"></item>
+    </plurals>
+    <plurals name="tcp_connections">
+        <item quantity="other">%d اتصالات TCP</item>
+        <item quantity="zero">%d اتصالات TCP</item>
+        <item quantity="one">%d اتصالات TCP</item>
+        <item quantity="two">%d اتصالات TCP</item>
+        <item quantity="few">%d اتصالات TCP</item>
+        <item quantity="many">%d اتصالات TCP</item>
+    </plurals>
+    <plurals name="udp_connections">
+        <item quantity="other">%d اتصالات UDP</item>
+        <item quantity="zero">%d اتصالات UDP</item>
+        <item quantity="one">%d اتصالات UDP</item>
+        <item quantity="two">%d اتصالات UDP</item>
+        <item quantity="few">%d اتصالات UDP</item>
+        <item quantity="many">%d اتصالات UDP</item>
+    </plurals>
+</resources>

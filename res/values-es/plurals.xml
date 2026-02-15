@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="added">
+        <item quantity="other">%d elementos añadidos</item>
+        <item quantity="one">%d elemento añadido</item>
+        <item quantity="many">%d elementos añadidos</item>
+    </plurals>
+    <plurals name="apps_message">
+        <item quantity="other">%d aplicaciones</item>
+        <item quantity="one">%d aplicación</item>
+        <item quantity="many">%d aplicaciones</item>
+    </plurals>
+    <plurals name="group_status_proxies">
+        <item quantity="other">%d perfiles</item>
+        <item quantity="one">%d perfil</item>
+        <item quantity="many">%d perfiles</item>
+    </plurals>
+    <plurals name="group_status_proxies_subscription">
+        <item quantity="other">%1$d perfiles | Última actualización: %2$s</item>
+        <item quantity="one">%1$d perfil | Última actualización: %2$s</item>
+        <item quantity="many">%1$d perfiles | Última actualización: %2$s</item>
+    </plurals>
+    <plurals name="group_updated">
+        <item quantity="other">%1$s: %2$d perfiles actualizados</item>
+        <item quantity="one">%1$s: %2$d perfil actualizado</item>
+        <item quantity="many">%1$s: %2$d perfiles actualizados</item>
+    </plurals>
+    <plurals name="lines">
+        <item quantity="other">%d líneas</item>
+        <item quantity="one">%d línea</item>
+        <item quantity="many">%d líneas</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d notificaciones nuevas</item>
+        <item quantity="one">%d notificación nueva</item>
+    </plurals>
+    <plurals name="profile_multi_import_message">
+        <item quantity="other">¿Realmente quieres importar %1$d perfiles a %2$s?</item>
+        <item quantity="one">¿Realmente quieres importar %1$d perfil a %2$s?</item>
+        <item quantity="many">¿Realmente quieres importar %1$d perfiles a %2$s?</item>
+    </plurals>
+    <plurals name="removed">
+        <item quantity="other">%d elementos eliminados</item>
+        <item quantity="one">%d elemento eliminado</item>
+        <item quantity="many">%d elementos eliminados</item>
+    </plurals>
+    <plurals name="tcp_connections">
+        <item quantity="other">%d conexiones TCP</item>
+        <item quantity="one">%d conexión TCP</item>
+        <item quantity="many">%d conexiones TCP</item>
+    </plurals>
+    <plurals name="udp_connections">
+        <item quantity="other">%d conexiones UDP</item>
+        <item quantity="one">%d conexión UDP</item>
+        <item quantity="many">%d conexiones UDP</item>
+    </plurals>
+</resources>

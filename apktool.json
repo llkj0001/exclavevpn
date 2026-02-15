@@ -1,0 +1,34 @@
+{
+  "apkFileName": "Exclave-0.17.14-armv7a_arm64-v8a_src_src.apk",
+  "PackageInfo": {
+    "forcedPackageId": "127",
+    "renameManifestPackage": null
+  },
+  "doNotCompress": [
+    "resources.arsc",
+    "png",
+    "webp",
+    "assets/dexopt/baseline.prof",
+    "assets/dexopt/baseline.profm"
+  ],
+  "compressionType": false,
+  "sparseResources": false,
+  "version": "2.4.0-251224",
+  "sharedLibrary": false,
+  "VersionInfo": {
+    "versionName": "0.17.14",
+    "versionCode": "1599"
+  },
+  "UsesFramework": {
+    "ids": [1],
+    "tag": null
+  },
+  "unknownFiles": {"META-INF/com/android/build/gradle/app-metadata.properties": "8"},
+  "apkFilePath": "/storage/emulated/0/backup/Exclave-0.17.14-armv7a_arm64-v8a_src.apk",
+  "compactEntries": false,
+  "isFrameworkApk": false,
+  "sdkInfo": {
+    "minSdkVersion": "21",
+    "targetSdkVersion": "36"
+  }
+}

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="added">
+        <item quantity="other">已添加 %d 项</item>
+    </plurals>
+    <plurals name="apps_message">
+        <item quantity="other">%d 个应用</item>
+    </plurals>
+    <plurals name="group_status_proxies">
+        <item quantity="other">%d 个配置</item>
+    </plurals>
+    <plurals name="group_status_proxies_subscription">
+        <item quantity="other">%1$d 个配置 | 上次更新：%2$s</item>
+    </plurals>
+    <plurals name="group_updated">
+        <item quantity="other">%1$s：更新了 %2$d 个配置</item>
+    </plurals>
+    <plurals name="lines">
+        <item quantity="other">%d 行</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d 条新通知</item>
+        <item quantity="one">%d 条新通知</item>
+    </plurals>
+    <plurals name="profile_multi_import_message">
+        <item quantity="other">确认要导入 %1$d 个配置到 %2$s？</item>
+    </plurals>
+    <plurals name="removed">
+        <item quantity="other">已删除 %d 项</item>
+    </plurals>
+    <plurals name="tcp_connections">
+        <item quantity="other">%d TCP 连接</item>
+    </plurals>
+    <plurals name="udp_connections">
+        <item quantity="other">%d UDP 连接</item>
+    </plurals>
+</resources>

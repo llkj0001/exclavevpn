@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="added">
+        <item quantity="one">Добавлен %d элемент</item>
+        <item quantity="few">Добавлено %d элемента</item>
+        <item quantity="many">Добавлено %d элементов</item>
+    </plurals>
+    <plurals name="apps_message">
+        <item quantity="one">%d приложений</item>
+        <item quantity="few">%d приложения</item>
+        <item quantity="many">%d приложений</item>
+    </plurals>
+    <plurals name="group_status_proxies">
+        <item quantity="one">%d прокси</item>
+        <item quantity="few">%d прокси</item>
+        <item quantity="many">%d прокси</item>
+    </plurals>
+    <plurals name="group_status_proxies_subscription">
+        <item quantity="one">%1$d прокси | Обновлен %2$s</item>
+        <item quantity="few">%1$d прокси | Обновлено %2$s</item>
+        <item quantity="many">%1$d прокси | Обновлено %2$s</item>
+    </plurals>
+    <plurals name="group_updated">
+        <item quantity="one">%1$s: обновлен %2$d прокси</item>
+        <item quantity="few">%1$s: обновлено %2$d прокси</item>
+        <item quantity="many">%1$s: обновлено %2$d прокси</item>
+    </plurals>
+    <plurals name="lines">
+        <item quantity="one">%d Строк</item>
+        <item quantity="few">%d Строки</item>
+        <item quantity="many">%d Строк</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d нового уведомления</item>
+        <item quantity="one">%d новое уведомление</item>
+        <item quantity="few">%d новых уведомления</item>
+        <item quantity="many">%d новых уведомлений</item>
+    </plurals>
+    <plurals name="profile_multi_import_message">
+        <item quantity="other">Вы уверены, что хотите импортировать %1$d профилей в %2$s?</item>
+        <item quantity="one">Вы уверены, что хотите импортировать %1$d профиль в %2$s?</item>
+        <item quantity="few">Вы уверены, что хотите импортировать %1$d профиля в %2$s?</item>
+        <item quantity="many">Вы уверены, что хотите импортировать %1$d профилей в %2$s?</item>
+    </plurals>
+    <plurals name="removed">
+        <item quantity="one">%d элемент удалён</item>
+        <item quantity="few">%d элемента удалены</item>
+        <item quantity="many">%d элементов удалено</item>
+    </plurals>
+    <plurals name="tcp_connections">
+        <item quantity="one">%d TCP-соединение</item>
+        <item quantity="few">%d TCP-соединения</item>
+        <item quantity="many">%d TCP-соединений</item>
+    </plurals>
+    <plurals name="udp_connections">
+        <item quantity="one">%d UDP-соединение</item>
+        <item quantity="few">%d UDP-соединения</item>
+        <item quantity="many">%d UDP-соединений</item>
+    </plurals>
+</resources>

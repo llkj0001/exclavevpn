@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:icon="@drawable/ic_image_photo"
+        android:id="@id/action_import_file"
+        android:title="@string/action_import_file"
+        android:alphabeticShortcut="o"
+        app:showAsAction="ifRoom" />
+    <item
+        android:icon="@drawable/ic_action_flight_on"
+        android:id="@id/action_flash"
+        android:title="@string/action_flash_on"
+        android:alphabeticShortcut="l"
+        app:showAsAction="ifRoom" />
+    <item
+        android:icon="@drawable/ic_baseline_cached"
+        android:id="@id/action_camera_switch"
+        android:title="@string/action_camera_switch"
+        android:alphabeticShortcut="s"
+        app:showAsAction="ifRoom" />
+</menu>

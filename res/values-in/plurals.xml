@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="added">
+        <item quantity="other">%d proksi ditambahkan</item>
+    </plurals>
+    <plurals name="apps_message">
+        <item quantity="other">%d Aplikasi</item>
+    </plurals>
+    <plurals name="group_status_proxies">
+        <item quantity="other">%d Proksi</item>
+    </plurals>
+    <plurals name="group_status_proxies_subscription">
+        <item quantity="other">%1$d Proksi | Diperbarui pada %2$s</item>
+    </plurals>
+    <plurals name="group_updated">
+        <item quantity="other">%1$s: Diperbarui %2$d proxy</item>
+    </plurals>
+    <plurals name="lines">
+        <item quantity="other">%d Baris</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d notifikasi baru</item>
+        <item quantity="one">%d notifikasi baru</item>
+    </plurals>
+    <plurals name="removed">
+        <item quantity="other">%d item terhapus</item>
+    </plurals>
+    <plurals name="tcp_connections">
+        <item quantity="other">%d Koneksi TCP</item>
+    </plurals>
+    <plurals name="udp_connections">
+        <item quantity="other">%d Koneksi UDP</item>
+    </plurals>
+</resources>

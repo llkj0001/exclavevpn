@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="added">
+        <item quantity="other">%d vekil sunucu eklendi</item>
+        <item quantity="one">Eklendi</item>
+    </plurals>
+    <plurals name="apps_message">
+        <item quantity="other">%d Uygulama</item>
+        <item quantity="one">%d Uygulama</item>
+    </plurals>
+    <plurals name="group_status_proxies">
+        <item quantity="other">%d Vekil Sunucu</item>
+        <item quantity="one">%d Vekil Sunucu</item>
+    </plurals>
+    <plurals name="group_status_proxies_subscription">
+        <item quantity="other">%1$d Vekil Sunucu | %2$s güncellendi</item>
+        <item quantity="one">%1$d Vekil Sunucu | %2$s güncellendi</item>
+    </plurals>
+    <plurals name="group_updated">
+        <item quantity="other">%1$s: %2$d vekil sunucu güncellendi</item>
+        <item quantity="one">%1$s: %2$d vekil sunucu güncellendi</item>
+    </plurals>
+    <plurals name="lines">
+        <item quantity="other">%d Satır</item>
+        <item quantity="one">%d Satır</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d yeni bildirim</item>
+        <item quantity="one">%d yeni bildirim</item>
+    </plurals>
+    <plurals name="removed">
+        <item quantity="other">%d öğe kaldırıldı</item>
+        <item quantity="one">Kaldırıldı</item>
+    </plurals>
+    <plurals name="tcp_connections">
+        <item quantity="other">%d TCP bağlantı</item>
+        <item quantity="one">%d TCP bağlantı</item>
+    </plurals>
+    <plurals name="udp_connections">
+        <item quantity="other">%d UDP bağlantı</item>
+        <item quantity="one">%d UDP bağlantı</item>
+    </plurals>
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="added">
+        <item quantity="other">%d موارد اضافه شده‌اند</item>
+        <item quantity="one">%d مورد اضافه شده است</item>
+    </plurals>
+    <plurals name="apps_message">
+        <item quantity="other">%d برنامه‌ها</item>
+        <item quantity="one">%d برنامه</item>
+    </plurals>
+    <plurals name="group_status_proxies">
+        <item quantity="other">%d پیکربندی‌ها</item>
+        <item quantity="one">%d پیکربندی‌</item>
+    </plurals>
+    <plurals name="group_status_proxies_subscription">
+        <item quantity="other">%1$d پروفایل‌ها | آخرین به‌روزرسانی: %2$s</item>
+        <item quantity="one">پروفایل %1$d | آخرین به‌روزرسانی: %2$s</item>
+    </plurals>
+    <plurals name="group_updated">
+        <item quantity="other">%1$s: %2$d پیکربندی‌ها به‌روزرسانی شدند</item>
+        <item quantity="one">%1$s: %2$d پیکربندی به‌روزرسانی شد</item>
+    </plurals>
+    <plurals name="lines">
+        <item quantity="other">%d خطوط</item>
+        <item quantity="one">%d خط</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d اعلان جدید</item>
+        <item quantity="one">%d اعلان جدید</item>
+    </plurals>
+    <plurals name="profile_multi_import_message">
+        <item quantity="other">آیا تأیید می‌کنید که %1$d پیکربندی‌ به %2$s وارد شوند؟</item>
+        <item quantity="one">آیا تأیید می‌کنید که %1$d پیکربندی به %2$s وارد شود؟</item>
+    </plurals>
+    <plurals name="removed">
+        <item quantity="other">%d موارد حذف شده</item>
+        <item quantity="one">%d مورد حذف شد</item>
+    </plurals>
+    <plurals name="tcp_connections">
+        <item quantity="other">%d اتصالات TCP</item>
+        <item quantity="one">%d اتصال TCP</item>
+    </plurals>
+    <plurals name="udp_connections">
+        <item quantity="other">%d اتصالات UDP</item>
+        <item quantity="one">%d اتصال UDP</item>
+    </plurals>
+</resources>
