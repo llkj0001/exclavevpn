@@ -260,6 +260,23 @@
     if-eqz p1, :cond_0
 
     .line 14
+    invoke-virtual {p0}, Landroidx/preference/Preference;->getKey()Ljava/lang/String;
+
+    move-result-object p1
+
+    const-string p2, "ipLookupUrl"
+
+    invoke-static {p2, p1}, Lkotlin/jvm/internal/Intrinsics;->areEqual(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result p1
+
+    if-eqz p1, :cond_blank_reject
+
+    const/4 p1, 0x1
+
+    return p1
+
+    :cond_blank_reject
     iget-object p1, p0, Lio/nekohasekai/sagernet/widget/LinkPreference;->defaultValue:Ljava/lang/String;
 
     .line 16
