@@ -132,19 +132,47 @@
 
     const-string v2, "ipLookupUrl"
 
-    const-string v3, "https://speed.cloudflare.com/cdn-cgi/trace"
+    invoke-interface {v1, v2}, Landroid/content/SharedPreferences;->contains(Ljava/lang/String;)Z
+
+    move-result v3
+
+    if-nez v3, :cond_pref_exists
+
+    const-string v3, "https://ipwhois.app/json"
 
     invoke-interface {v1, v2, v3}, Landroid/content/SharedPreferences;->getString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
+    goto :goto_check_empty
+
+    :cond_pref_exists
+    const-string v3, ""
+
+    invoke-interface {v1, v2, v3}, Landroid/content/SharedPreferences;->getString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v1
+
+    :goto_check_empty
     invoke-virtual {v1}, Ljava/lang/String;->length()I
 
     move-result v2
 
     if-gtz v2, :cond_0
 
-    const-string v1, "https://speed.cloudflare.com/cdn-cgi/trace"
+    iget-object v0, p0, Lio/nekohasekai/sagernet/widget/StatsBar$IpLookupThread;->this$0:Lio/nekohasekai/sagernet/widget/StatsBar;
+
+    invoke-virtual {v0}, Landroid/view/View;->getContext()Landroid/content/Context;
+
+    move-result-object v1
+
+    sget v2, Lio/nekohasekai/sagernet/R$string;->ip_info_error:I
+
+    invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
+
+    move-result-object v1
+
+    goto :goto_6
 
     :cond_0
     invoke-static {}, Llibcore/Libcore;->newHttpClient()Llibcore/HTTPClient;

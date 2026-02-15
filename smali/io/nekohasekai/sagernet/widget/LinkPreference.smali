@@ -260,13 +260,9 @@
     if-eqz p1, :cond_0
 
     .line 14
-    iget-object p1, p0, Lio/nekohasekai/sagernet/widget/LinkPreference;->defaultValue:Ljava/lang/String;
+    const/4 p1, 0x1
 
-    .line 16
-    invoke-virtual {p0, p1}, Lcom/takisoft/preferencex/EditTextPreference;->setText(Ljava/lang/String;)V
-
-    .line 19
-    return v0
+    return p1
 
     .line 20
     :cond_0
