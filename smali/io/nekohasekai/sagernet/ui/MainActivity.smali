@@ -1464,18 +1464,32 @@
 
     .line 115
     :cond_6
-    sget v0, Lio/nekohasekai/sagernet/R$id;->nav_about:I
+    sget v0, Lio/nekohasekai/sagernet/R$id;->nav_speed_test:I
 
     .line 117
     if-ne p1, v0, :cond_7
 
     .line 119
-    new-instance v0, Lio/nekohasekai/sagernet/ui/AboutFragment;
+    new-instance v0, Landroid/content/Intent;
 
-    .line 121
-    invoke-direct {v0}, Lio/nekohasekai/sagernet/ui/AboutFragment;-><init>()V
+    const-class v1, Lio/nekohasekai/sagernet/ui/SpeedTestActivity;
+
+    invoke-direct {v0, p0, v1}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
+
+    invoke-virtual {p0, v0}, Landroidx/activity/ComponentActivity;->startActivity(Landroid/content/Intent;)V
 
     .line 124
+    goto :goto_0
+
+    :cond_7
+    sget v0, Lio/nekohasekai/sagernet/R$id;->nav_about:I
+
+    if-ne p1, v0, :cond_8
+
+    new-instance v0, Lio/nekohasekai/sagernet/ui/AboutFragment;
+
+    invoke-direct {v0}, Lio/nekohasekai/sagernet/ui/AboutFragment;-><init>()V
+
     invoke-virtual {p0, v0}, Lio/nekohasekai/sagernet/ui/MainActivity;->displayFragment(Lio/nekohasekai/sagernet/ui/ToolbarFragment;)V
 
     .line 127
@@ -1507,7 +1521,7 @@
     return v0
 
     .line 144
-    :cond_7
+    :cond_8
     const/4 p1, 0x0
 
     .line 145

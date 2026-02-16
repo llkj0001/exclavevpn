@@ -438,6 +438,18 @@
 
 .field public static wait_layout:I = 0x7f0902f0
 
+.field public static speed_test_ok_button:I = 0x7f0902fc
+
+.field public static speed_test_progress:I = 0x7f0902fd
+
+.field public static speed_test_url_bar:I = 0x7f0902fe
+
+.field public static speed_test_url_input:I = 0x7f0902ff
+
+.field public static speed_test_webview:I = 0x7f090300
+
+.field public static nav_speed_test:I = 0x7f090301
+
 
 # direct methods
 .method private constructor <init>()V

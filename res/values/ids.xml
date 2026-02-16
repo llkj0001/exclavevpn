@@ -631,4 +631,10 @@
     <item type="id" name="x_left" />
     <item type="id" name="x_right" />
     <item type="id" name="ip_info" />
+    <item type="id" name="speed_test_ok_button" />
+    <item type="id" name="speed_test_progress" />
+    <item type="id" name="speed_test_url_bar" />
+    <item type="id" name="speed_test_url_input" />
+    <item type="id" name="speed_test_webview" />
+    <item type="id" name="nav_speed_test" />
 </resources>

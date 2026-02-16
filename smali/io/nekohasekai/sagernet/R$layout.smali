@@ -100,6 +100,8 @@
 
 .field public static layout_v2ray_plugin:I = 0x7f0c005c
 
+.field public static layout_speed_test:I = 0x7f0c005d
+
 
 # direct methods
 .method private constructor <init>()V

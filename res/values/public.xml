@@ -2886,6 +2886,12 @@
     <public type="id" name="visible" id="0x7f0902ee" />
     <public type="id" name="visible_removing_fragment_view_tag" id="0x7f0902ef" />
     <public type="id" name="wait_layout" id="0x7f0902f0" />
+    <public type="id" name="speed_test_ok_button" id="0x7f0902fc" />
+    <public type="id" name="speed_test_progress" id="0x7f0902fd" />
+    <public type="id" name="speed_test_url_bar" id="0x7f0902fe" />
+    <public type="id" name="speed_test_url_input" id="0x7f0902ff" />
+    <public type="id" name="speed_test_webview" id="0x7f090300" />
+    <public type="id" name="nav_speed_test" id="0x7f090301" />
     <public type="id" name="west" id="0x7f0902f1" />
     <public type="id" name="withText" id="0x7f0902f2" />
     <public type="id" name="with_icon" id="0x7f0902f3" />
@@ -3023,6 +3029,7 @@
     <public type="layout" name="layout_traffic_item" id="0x7f0c005a" />
     <public type="layout" name="layout_traffic_list" id="0x7f0c005b" />
     <public type="layout" name="layout_v2ray_plugin" id="0x7f0c005c" />
+    <public type="layout" name="layout_speed_test" id="0x7f0c005d" />
     <public type="layout" name="mal_material_about_action_item" id="0x7f0c0064" />
     <public type="layout" name="mal_material_about_content" id="0x7f0c0065" />
     <public type="layout" name="mal_material_about_list_card" id="0x7f0c0066" />

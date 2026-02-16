@@ -316,6 +316,11 @@
             android:launchMode="singleTask"
             android:parentActivityName="io.nekohasekai.sagernet.ui.MainActivity" />
         <activity
+            android:name="io.nekohasekai.sagernet.ui.SpeedTestActivity"
+            android:taskAffinity="io.nekohasekai.sagernet.ui.SpeedTestActivity"
+            android:launchMode="singleTask"
+            android:parentActivityName="io.nekohasekai.sagernet.ui.MainActivity" />
+        <activity
             android:name="io.nekohasekai.sagernet.ui.ProbeCertActivity"
             android:taskAffinity="io.nekohasekai.sagernet.ui.ProbeCertActivity"
             android:launchMode="singleTask"
