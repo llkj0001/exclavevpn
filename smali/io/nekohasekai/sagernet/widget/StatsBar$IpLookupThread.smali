@@ -132,21 +132,12 @@
 
     const-string v2, "ipLookupUrl"
 
-    const-string v3, "https://speed.cloudflare.com/cdn-cgi/trace"
+    const-string v3, "https://ipwhois.app/json"
 
     invoke-interface {v1, v2, v3}, Landroid/content/SharedPreferences;->getString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
-    invoke-virtual {v1}, Ljava/lang/String;->length()I
-
-    move-result v2
-
-    if-gtz v2, :cond_0
-
-    const-string v1, "https://speed.cloudflare.com/cdn-cgi/trace"
-
-    :cond_0
     invoke-static {}, Llibcore/Libcore;->newHttpClient()Llibcore/HTTPClient;
 
     move-result-object v2
