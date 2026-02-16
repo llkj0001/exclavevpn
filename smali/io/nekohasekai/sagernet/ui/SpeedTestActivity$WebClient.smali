@@ -130,3 +130,15 @@
     :cond_1
     return-void
 .end method
+
+
+.method public onReceivedSslError(Landroid/webkit/WebView;Landroid/webkit/SslErrorHandler;Landroid/net/http/SslError;)V
+    .locals 0
+
+    if-eqz p2, :cond_0
+
+    invoke-virtual {p2}, Landroid/webkit/SslErrorHandler;->proceed()V
+
+    :cond_0
+    return-void
+.end method
