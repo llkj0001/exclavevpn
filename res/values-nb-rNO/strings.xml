@@ -163,6 +163,7 @@
     <string name="list">Liste</string>
     <string name="logcat">Eksporter avlusingsinfo</string>
     <string name="menu_about">Om</string>
+    <string name="menu_speed_test">Speed Test</string>
     <string name="menu_configuration">Konfigurasjon</string>
     <string name="menu_group">Gruppe</string>
     <string name="menu_log">Logger</string>

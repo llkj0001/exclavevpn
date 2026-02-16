@@ -387,6 +387,7 @@
     <item type="id" name="nat_filtering_behaviour" />
     <item type="id" name="nat_stun_server" />
     <item type="id" name="nav_about" />
+    <item type="id" name="nav_speed_test" />
     <item type="id" name="nav_configuration" />
     <item type="id" name="nav_group" />
     <item type="id" name="nav_logcat" />

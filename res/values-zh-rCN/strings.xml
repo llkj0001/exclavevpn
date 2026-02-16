@@ -285,6 +285,7 @@
     <string name="log_level">日志级别</string>
     <string name="logcat">导出调试信息</string>
     <string name="menu_about">关于</string>
+    <string name="menu_speed_test">Speed Test</string>
     <string name="menu_configuration">配置</string>
     <string name="menu_group">分组</string>
     <string name="menu_log">日志</string>
@@ -453,7 +454,7 @@
     <string name="route_reverse_redirect">反向代理地址</string>
     <string name="route_rules_custom">自定义</string>
     <string name="route_rules_official">官方</string>
-    <string name="route_rules_provider">路由资源提供者</string>
+    <string name="route_rules_provider">路由资源提供���</string>
     <string name="route_ssid">Wi-Fi SSID</string>
     <string name="route_warn">在添加自定义规则之前，请确保您已经阅读了文档，否则您将可能无法连接到网络。</string>
     <string name="rules_geoip_url">geoip.dat URL</string>
@@ -567,7 +568,7 @@
     <string name="vpn_permission_denied">VPN 服务权限请求被拒绝</string>
     <string name="wireguard_keepalive_interval">连接保活间隔（秒）</string>
     <string name="wireguard_local_address">本地地址</string>
-    <string name="wireguard_psk">节点预共享密钥</string>
+    <string name="wireguard_psk">节���预共享密钥</string>
     <string name="wireguard_public_key">节点公钥</string>
     <string name="wireguard_reserved">保留字段</string>
     <string name="ws_browser_forwarding">浏览器转发</string>

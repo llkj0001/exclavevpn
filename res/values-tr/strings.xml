@@ -200,6 +200,7 @@ tekrarlı"</string>
     <string name="list">Liste</string>
     <string name="logcat">Hata ayıklama bilgisini dışa aktar</string>
     <string name="menu_about">Hakkında</string>
+    <string name="menu_speed_test">Speed Test</string>
     <string name="menu_configuration">Yapılandırma</string>
     <string name="menu_group">Grup</string>
     <string name="menu_log">Günlükler</string>

@@ -193,6 +193,7 @@
     <string name="list">Lista</string>
     <string name="logcat">Esporta informazioni di debug</string>
     <string name="menu_about">Circa</string>
+    <string name="menu_speed_test">Speed Test</string>
     <string name="menu_configuration">Configurazione</string>
     <string name="menu_group">Gruppo</string>
     <string name="menu_route">Percorso</string>

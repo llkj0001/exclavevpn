@@ -344,6 +344,7 @@ You should have received a copy of the GNU General Public License along with thi
     <string name="material_motion_easing_linear">cubic-bezier(0.0, 0.0, 1.0, 1.0)</string>
     <string name="material_motion_easing_standard">cubic-bezier(0.4, 0.0, 0.2, 1.0)</string>
     <string name="menu_about">About</string>
+    <string name="menu_speed_test">Speed Test</string>
     <string name="menu_configuration">Configuration</string>
     <string name="menu_group">Group</string>
     <string name="menu_log">Logs</string>

@@ -40,6 +40,10 @@
         android:id="@id/about"
         android:checkableBehavior="single">
         <item
+            android:icon="@drawable/ic_baseline_speed_24"
+            android:id="@+id/nav_speed_test"
+            android:title="@string/menu_speed_test" />
+        <item
             android:icon="@drawable/ic_baseline_info_24"
             android:id="@id/nav_about"
             android:title="@string/menu_about" />

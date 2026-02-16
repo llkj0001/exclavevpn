@@ -1464,6 +1464,19 @@
 
     .line 115
     :cond_6
+    sget v0, Lio/nekohasekai/sagernet/R$id;->nav_speed_test:I
+
+    if-ne p1, v0, :cond_speed_skip
+
+    # Launch SpeedTestActivity
+    new-instance v0, Landroid/content/Intent;
+    const-class v1, Lio/nekohasekai/sagernet/ui/SpeedTestActivity;
+    invoke-direct {v0, p0, v1}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
+    invoke-virtual {p0, v0}, Lio/nekohasekai/sagernet/ui/MainActivity;->startActivity(Landroid/content/Intent;)V
+
+    goto :goto_0
+
+    :cond_speed_skip
     sget v0, Lio/nekohasekai/sagernet/R$id;->nav_about:I
 
     .line 117

@@ -2609,6 +2609,7 @@
     <public type="id" name="nat_filtering_behaviour" id="0x7f0901d9" />
     <public type="id" name="nat_stun_server" id="0x7f0901da" />
     <public type="id" name="nav_about" id="0x7f0901db" />
+    <public type="id" name="nav_speed_test" id="0x7f090900" />
     <public type="id" name="nav_configuration" id="0x7f0901dc" />
     <public type="id" name="nav_group" id="0x7f0901dd" />
     <public type="id" name="nav_logcat" id="0x7f0901de" />
@@ -3414,6 +3415,7 @@
     <public type="string" name="material_motion_easing_linear" id="0x7f120177" />
     <public type="string" name="material_motion_easing_standard" id="0x7f120178" />
     <public type="string" name="menu_about" id="0x7f120183" />
+    <public type="string" name="menu_speed_test" id="0x7f120a00" />
     <public type="string" name="menu_configuration" id="0x7f120184" />
     <public type="string" name="menu_group" id="0x7f120185" />
     <public type="string" name="menu_log" id="0x7f120186" />

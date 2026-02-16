@@ -274,6 +274,7 @@
     <string name="log_level">سطح گزارش</string>
     <string name="logcat">گرفتن گزارش اشکال‌زدایی</string>
     <string name="menu_about">درباره</string>
+    <string name="menu_speed_test">Speed Test</string>
     <string name="menu_configuration">پیکربندی</string>
     <string name="menu_group">گروه</string>
     <string name="menu_log">گزارش عملکرد</string>

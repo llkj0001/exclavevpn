@@ -199,13 +199,14 @@
     <string name="list">قائمة</string>
     <string name="logcat">تصدير معلومات التصحيح</string>
     <string name="menu_about">حول</string>
+    <string name="menu_speed_test">Speed Test</string>
     <string name="menu_configuration">ترتيب</string>
     <string name="menu_group">مجموعة</string>
     <string name="menu_log">السجلات</string>
     <string name="menu_route">طريق</string>
     <string name="menu_tools">أدوات</string>
     <string name="menu_traffic">مرور</string>
-    <string name="metered">تلميح مقنن</string>
+    <string name="metered">تل��يح مقنن</string>
     <string name="metered_summary">نظام تلميح لمعاملة VPN على أنها محسوبة</string>
     <string name="missing_plugin">في عداد المفقودين المكونات في</string>
     <string name="mtrl_badge_numberless_content_description">إشعار جديد</string>
@@ -293,7 +294,7 @@
     <string name="route_reverse_redirect">إعادة التوجيه العكسي</string>
     <string name="route_rules_official">الرسمية</string>
     <string name="route_rules_provider">مزود أصول القاعدة</string>
-    <string name="route_warn">تأكد من قراءة الوثائق قبل إضافة القواعد المخصصة، وإلا فقد لا تتمكن من الاتصال بالإنترنت.</string>
+    <string name="route_warn">تأكد من قراءة الوثائق قبل إضافة القواعد المخصصة، وإلا ف��د لا تتمكن من الاتصال بالإنترنت.</string>
     <string name="scanning">يتم المسح…</string>
     <string name="search_apps">بحث…</string>
     <string name="security">تشفير طبقة النقل</string>

@@ -217,6 +217,7 @@ Opsi ini memetakan ulang 6 byte pertama IV menjadi karakter yang dapat dicetak, 
     <string name="location_disabled">Lokasi Dinonaktifkan</string>
     <string name="logcat">Ekspor informasi debug</string>
     <string name="menu_about">Tentang</string>
+    <string name="menu_speed_test">Speed Test</string>
     <string name="menu_configuration">Konfigurasi</string>
     <string name="menu_group">Grup</string>
     <string name="menu_log">Log</string>

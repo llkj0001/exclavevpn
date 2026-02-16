@@ -175,6 +175,7 @@
     <string name="location_disabled">Position désactivée</string>
     <string name="logcat">Exporter les informations de débogage</string>
     <string name="menu_about">À propos</string>
+    <string name="menu_speed_test">Speed Test</string>
     <string name="menu_configuration">Configuration</string>
     <string name="menu_group">Groupe</string>
     <string name="menu_log">Journaux</string>

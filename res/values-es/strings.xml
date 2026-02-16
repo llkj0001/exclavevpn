@@ -285,6 +285,7 @@ Esta opción reasigna los primeros 6 bytes de IV a caracteres imprimibles, es po
     <string name="log_level">Nivel de registro</string>
     <string name="logcat">Exportar información de depuración</string>
     <string name="menu_about">Información</string>
+    <string name="menu_speed_test">Speed Test</string>
     <string name="menu_configuration">Configuración</string>
     <string name="menu_group">Grupo</string>
     <string name="menu_log">Registros</string>

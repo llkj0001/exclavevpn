@@ -311,6 +311,12 @@
             android:launchMode="singleTask"
             android:parentActivityName="io.nekohasekai.sagernet.ui.MainActivity" />
         <activity
+            android:name="io.nekohasekai.sagernet.ui.SpeedTestActivity"
+            android:label="Speed Test"
+            android:launchMode="singleTask"
+            android:parentActivityName="io.nekohasekai.sagernet.ui.MainActivity"
+            android:hardwareAccelerated="true" />
+        <activity
             android:name="io.nekohasekai.sagernet.ui.StunActivity"
             android:taskAffinity="io.nekohasekai.sagernet.ui.StunActivity"
             android:launchMode="singleTask"

@@ -284,6 +284,7 @@
     <string name="log_level">Тип журнала</string>
     <string name="logcat">Экспорт отладочной информации</string>
     <string name="menu_about">О приложении</string>
+    <string name="menu_speed_test">Speed Test</string>
     <string name="menu_configuration">Конфигурация</string>
     <string name="menu_group">Группы</string>
     <string name="menu_log">Журнал</string>
@@ -325,12 +326,12 @@
     <string name="network_eth">Ethernet</string>
     <string name="network_invalid">Неверный тип сети: требуется Android %s.</string>
     <string name="network_satellite">Спутниковый интернет</string>
-    <string name="network_type">Тип сети</string>
+    <string name="network_type">Тип сет��</string>
     <string name="network_usb">USB</string>
     <string name="network_wifi">Wi-Fi</string>
     <string name="night_mode">Ночной режим</string>
     <string name="no_proxies_found">В ссылке не найдено прокси-серверов</string>
-    <string name="no_proxies_found_in_clipboard">В буфере обмена не найдено ни одного прокси</string>
+    <string name="no_proxies_found_in_clipboard">В буфере обмена не найдено ни одного пр��кси</string>
     <string name="no_proxies_found_in_file">В файле не найдено прокси-серверов</string>
     <string name="no_proxies_found_in_subscription">В подписке не найдено прокси-серверов</string>
     <string name="no_statistics">Нет статистики</string>
@@ -486,7 +487,7 @@
     <string name="speed">%s/с</string>
     <string name="speed_detail">"Прокси ： %1$s↑ %2$s↓ 
 Прямой ： %3$s↑%4$s↓"</string>
-    <string name="speed_interval">Интервал обновления уведомлений о скорости</string>
+    <string name="speed_interval">Интервал обновления уведомлений о скорос��и</string>
     <string name="splithttp_mode">Режим</string>
     <string name="ss_cat">Настройки Shadowsocks</string>
     <string name="ssh_auth_type_none">Нет</string>

@@ -314,6 +314,8 @@
 
 .field public static nav_about:I = 0x7f0901db
 
+.field public static nav_speed_test:I = 0x7f090900
+
 .field public static nav_configuration:I = 0x7f0901dc
 
 .field public static nav_group:I = 0x7f0901dd

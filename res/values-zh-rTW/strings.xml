@@ -229,6 +229,7 @@
     <string name="log_level">日誌等級</string>
     <string name="logcat">匯出 debug 所需資訊</string>
     <string name="menu_about">關於</string>
+    <string name="menu_speed_test">Speed Test</string>
     <string name="menu_configuration">設定檔</string>
     <string name="menu_group">組</string>
     <string name="menu_log">記錄檔</string>
