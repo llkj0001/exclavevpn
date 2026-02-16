@@ -14,6 +14,8 @@
 
 
 # static fields
+.field public static activity_speed_test:I = 0x7f0c00d0
+
 .field public static layout_about:I = 0x7f0c0032
 
 .field public static layout_add_entity:I = 0x7f0c0033

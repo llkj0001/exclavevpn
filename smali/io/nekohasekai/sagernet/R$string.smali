@@ -584,6 +584,8 @@
 
 .field public static menu_about:I = 0x7f120183
 
+.field public static menu_speed_test:I = 0x7f120400
+
 .field public static menu_configuration:I = 0x7f120184
 
 .field public static menu_group:I = 0x7f120185

@@ -314,6 +314,18 @@
 
 .field public static nav_about:I = 0x7f0901db
 
+.field public static nav_speed_test:I = 0x7f090500
+
+.field public static speed_test_webview:I = 0x7f090501
+
+.field public static speed_test_url_input:I = 0x7f090502
+
+.field public static speed_test_go_button:I = 0x7f090503
+
+.field public static speed_test_progress:I = 0x7f090504
+
+.field public static speed_test_url_bar:I = 0x7f090505
+
 .field public static nav_configuration:I = 0x7f0901dc
 
 .field public static nav_group:I = 0x7f0901dd

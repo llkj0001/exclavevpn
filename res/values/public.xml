@@ -2609,6 +2609,12 @@
     <public type="id" name="nat_filtering_behaviour" id="0x7f0901d9" />
     <public type="id" name="nat_stun_server" id="0x7f0901da" />
     <public type="id" name="nav_about" id="0x7f0901db" />
+    <public type="id" name="nav_speed_test" id="0x7f090500" />
+    <public type="id" name="speed_test_webview" id="0x7f090501" />
+    <public type="id" name="speed_test_url_input" id="0x7f090502" />
+    <public type="id" name="speed_test_go_button" id="0x7f090503" />
+    <public type="id" name="speed_test_progress" id="0x7f090504" />
+    <public type="id" name="speed_test_url_bar" id="0x7f090505" />
     <public type="id" name="nav_configuration" id="0x7f0901dc" />
     <public type="id" name="nav_group" id="0x7f0901dd" />
     <public type="id" name="nav_logcat" id="0x7f0901de" />
@@ -2980,6 +2986,7 @@
     <public type="layout" name="design_text_input_start_icon" id="0x7f0c002d" />
     <public type="layout" name="expand_button" id="0x7f0c002e" />
     <public type="layout" name="image_frame" id="0x7f0c002f" />
+    <public type="layout" name="activity_speed_test" id="0x7f0c00d0" />
     <public type="layout" name="layout_about" id="0x7f0c0032" />
     <public type="layout" name="layout_add_entity" id="0x7f0c0033" />
     <public type="layout" name="layout_app_list" id="0x7f0c0034" />
@@ -3414,6 +3421,7 @@
     <public type="string" name="material_motion_easing_linear" id="0x7f120177" />
     <public type="string" name="material_motion_easing_standard" id="0x7f120178" />
     <public type="string" name="menu_about" id="0x7f120183" />
+    <public type="string" name="menu_speed_test" id="0x7f120400" />
     <public type="string" name="menu_configuration" id="0x7f120184" />
     <public type="string" name="menu_group" id="0x7f120185" />
     <public type="string" name="menu_log" id="0x7f120186" />
