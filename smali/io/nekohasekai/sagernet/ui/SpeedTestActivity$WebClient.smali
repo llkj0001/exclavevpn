@@ -63,9 +63,21 @@
 .end method
 
 .method public onReceivedError(Landroid/webkit/WebView;ILjava/lang/String;Ljava/lang/String;)V
-    .locals 1
+    .locals 2
 
     invoke-super {p0, p1, p2, p3, p4}, Landroid/webkit/WebViewClient;->onReceivedError(Landroid/webkit/WebView;ILjava/lang/String;Ljava/lang/String;)V
+
+    if-eqz p1, :cond_1
+
+    invoke-virtual {p1}, Landroid/webkit/WebView;->getUrl()Ljava/lang/String;
+
+    move-result-object p2
+
+    invoke-static {p2, p4}, Lkotlin/jvm/internal/Intrinsics;->areEqual(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result p2
+
+    if-eqz p2, :cond_1
 
     iget-object p2, p0, Lio/nekohasekai/sagernet/ui/SpeedTestActivity$WebClient;->activity:Lio/nekohasekai/sagernet/ui/SpeedTestActivity;
 
@@ -73,17 +85,15 @@
 
     invoke-virtual {p2, p3}, Lio/nekohasekai/sagernet/ui/SpeedTestActivity;->setLoading(Z)V
 
-    if-eqz p1, :cond_0
-
     const-string p2, ""
 
     const-string p3, "text/html"
 
-    const-string p4, "utf-8"
+    const-string v0, "utf-8"
 
-    invoke-virtual {p1, p2, p3, p4}, Landroid/webkit/WebView;->loadData(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, p2, p3, v0}, Landroid/webkit/WebView;->loadData(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    :cond_0
+    :cond_1
     return-void
 .end method
 
