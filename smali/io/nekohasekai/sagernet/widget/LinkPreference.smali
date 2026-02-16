@@ -236,37 +236,53 @@
 .end method
 
 .method private static final _init_$lambda$1(Lio/nekohasekai/sagernet/widget/LinkPreference;Landroidx/preference/Preference;Ljava/lang/Object;)Z
-    .locals 1
+    .locals 2
 
     .line 1
     invoke-virtual {p2}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     .line 4
-    move-object p1, p2
+    move-object v0, p2
 
     .line 5
-    check-cast p1, Ljava/lang/String;
+    check-cast v0, Ljava/lang/String;
 
     .line 7
-    invoke-static {p1}, Lkotlin/text/StringsKt;->isBlank(Ljava/lang/CharSequence;)Z
+    invoke-static {v0}, Lkotlin/text/StringsKt;->isBlank(Ljava/lang/CharSequence;)Z
 
     .line 10
-    move-result p1
+    move-result v0
 
     .line 11
-    const/4 v0, 0x0
+    const/4 v1, 0x0
 
     .line 12
-    if-eqz p1, :cond_0
+    if-eqz v0, :cond_0
 
     .line 14
-    iget-object p1, p0, Lio/nekohasekai/sagernet/widget/LinkPreference;->defaultValue:Ljava/lang/String;
+    invoke-virtual {p1}, Landroidx/preference/Preference;->getKey()Ljava/lang/String;
 
     .line 16
+    move-result-object p1
+
+    const-string v0, "ipLookupUrl"
+
+    invoke-static {v0, p1}, Lkotlin/jvm/internal/Intrinsics;->areEqual(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result p1
+
+    if-eqz p1, :cond_blank_default
+
+    const/4 p0, 0x1
+
+    return p0
+
+    :cond_blank_default
+    iget-object p1, p0, Lio/nekohasekai/sagernet/widget/LinkPreference;->defaultValue:Ljava/lang/String;
+
     invoke-virtual {p0, p1}, Lcom/takisoft/preferencex/EditTextPreference;->setText(Ljava/lang/String;)V
 
-    .line 19
-    return v0
+    return v1
 
     .line 20
     :cond_0
@@ -279,11 +295,11 @@
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
     .line 25
-    const/4 v0, 0x1
+    const/4 v1, 0x1
 
     .line 26
     :catch_0
-    return v0
+    return v1
 .end method
 
 .method public static final synthetic access$lambda$0$validate(Landroid/widget/EditText;Lcom/google/android/material/textfield/TextInputLayout;Lio/nekohasekai/sagernet/widget/LinkPreference;)V
