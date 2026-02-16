@@ -120,13 +120,9 @@
     invoke-virtual {v0, v2}, Landroid/view/View;->post(Ljava/lang/Runnable;)Z
 
     :try_start_0
-    iget-object v0, p0, Lio/nekohasekai/sagernet/widget/StatsBar$IpLookupThread;->this$0:Lio/nekohasekai/sagernet/widget/StatsBar;
+    sget-object v1, Lio/nekohasekai/sagernet/database/DataStore;->INSTANCE:Lio/nekohasekai/sagernet/database/DataStore;
 
-    invoke-virtual {v0}, Landroid/view/View;->getContext()Landroid/content/Context;
-
-    move-result-object v1
-
-    invoke-static {v1}, Landroid/preference/PreferenceManager;->getDefaultSharedPreferences(Landroid/content/Context;)Landroid/content/SharedPreferences;
+    invoke-virtual {v1}, Lio/nekohasekai/sagernet/database/DataStore;->getConfigurationStore()Lio/nekohasekai/sagernet/database/preference/RoomPreferenceDataStore;
 
     move-result-object v1
 
@@ -134,7 +130,7 @@
 
     const-string v3, "https://ipwhois.app/json"
 
-    invoke-interface {v1, v2, v3}, Landroid/content/SharedPreferences;->getString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v1, v2, v3}, Landroidx/preference/PreferenceDataStore;->getString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
