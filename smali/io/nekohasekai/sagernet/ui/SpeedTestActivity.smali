@@ -118,11 +118,83 @@
 .end method
 
 
+.method private clearWebViewProxy()V
+    .locals 1
+
+    const-string v0, "http.proxyHost"
+    invoke-static {v0}, Ljava/lang/System;->clearProperty(Ljava/lang/String;)Ljava/lang/String;
+
+    const-string v0, "http.proxyPort"
+    invoke-static {v0}, Ljava/lang/System;->clearProperty(Ljava/lang/String;)Ljava/lang/String;
+
+    const-string v0, "https.proxyHost"
+    invoke-static {v0}, Ljava/lang/System;->clearProperty(Ljava/lang/String;)Ljava/lang/String;
+
+    const-string v0, "https.proxyPort"
+    invoke-static {v0}, Ljava/lang/System;->clearProperty(Ljava/lang/String;)Ljava/lang/String;
+
+    return-void
+.end method
+
+.method private configureWebViewProxy()V
+    .locals 5
+
+    sget-object v0, Lio/nekohasekai/sagernet/database/DataStore;->INSTANCE:Lio/nekohasekai/sagernet/database/DataStore;
+
+    invoke-virtual {v0}, Lio/nekohasekai/sagernet/database/DataStore;->getStartedProfile()J
+
+    move-result-wide v1
+
+    const-wide/16 v3, 0x0
+
+    cmp-long v1, v1, v3
+
+    if-lez v1, :cond_0
+
+    invoke-virtual {v0}, Lio/nekohasekai/sagernet/database/DataStore;->getHttpPort()I
+
+    move-result v0
+
+    if-lez v0, :cond_0
+
+    const-string v1, "http.proxyHost"
+
+    const-string v2, "127.0.0.1"
+
+    invoke-static {v1, v2}, Ljava/lang/System;->setProperty(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    const-string v1, "https.proxyHost"
+
+    invoke-static {v1, v2}, Ljava/lang/System;->setProperty(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    invoke-static {v0}, Ljava/lang/Integer;->toString(I)Ljava/lang/String;
+
+    move-result-object v0
+
+    const-string v1, "http.proxyPort"
+
+    invoke-static {v1, v0}, Ljava/lang/System;->setProperty(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    const-string v1, "https.proxyPort"
+
+    invoke-static {v1, v0}, Ljava/lang/System;->setProperty(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    return-void
+
+    :cond_0
+    invoke-direct {p0}, Lio/nekohasekai/sagernet/ui/SpeedTestActivity;->clearWebViewProxy()V
+
+    return-void
+.end method
+
+
 # virtual methods
 .method public onCreate(Landroid/os/Bundle;)V
     .locals 4
 
     invoke-super {p0, p1}, Lio/nekohasekai/sagernet/ui/ThemedActivity;->onCreate(Landroid/os/Bundle;)V
+
+    invoke-direct {p0}, Lio/nekohasekai/sagernet/ui/SpeedTestActivity;->configureWebViewProxy()V
 
     sget p1, Lio/nekohasekai/sagernet/R$layout;->layout_speed_test:I
 
@@ -259,6 +331,8 @@
     invoke-virtual {v0}, Landroid/webkit/WebView;->destroy()V
 
     :cond_0
+    invoke-direct {p0}, Lio/nekohasekai/sagernet/ui/SpeedTestActivity;->clearWebViewProxy()V
+
     invoke-super {p0}, Landroidx/appcompat/app/AppCompatActivity;->onDestroy()V
 
     return-void
