@@ -1464,6 +1464,19 @@
 
     .line 115
     :cond_6
+    sget v0, Lio/nekohasekai/sagernet/R$id;->nav_speed_test:I
+
+    if-ne p1, v0, :cond_speed_test_skip
+
+    new-instance v0, Lio/nekohasekai/sagernet/ui/SpeedTestFragment;
+
+    invoke-direct {v0}, Lio/nekohasekai/sagernet/ui/SpeedTestFragment;-><init>()V
+
+    invoke-virtual {p0, v0}, Lio/nekohasekai/sagernet/ui/MainActivity;->displayFragment(Lio/nekohasekai/sagernet/ui/ToolbarFragment;)V
+
+    goto :goto_0
+
+    :cond_speed_test_skip
     sget v0, Lio/nekohasekai/sagernet/R$id;->nav_about:I
 
     .line 117
@@ -2818,6 +2831,54 @@
 
     .line 233
     invoke-virtual {v1, p0}, Lcom/google/android/material/navigation/NavigationView;->setNavigationItemSelectedListener(Lcom/google/android/material/navigation/NavigationView$OnNavigationItemSelectedListener;)V
+
+    # --- Add Speed Test menu item programmatically before About ---
+    invoke-virtual {p0}, Lio/nekohasekai/sagernet/ui/MainActivity;->getNavigation()Lcom/google/android/material/navigation/NavigationView;
+
+    move-result-object v1
+
+    invoke-virtual {v1}, Lcom/google/android/material/navigation/NavigationView;->getMenu()Landroid/view/Menu;
+
+    move-result-object v3
+
+    # Get the order of nav_about item to insert before it
+    sget v5, Lio/nekohasekai/sagernet/R$id;->nav_about:I
+
+    invoke-interface {v3, v5}, Landroid/view/Menu;->findItem(I)Landroid/view/MenuItem;
+
+    move-result-object v5
+
+    invoke-interface {v5}, Landroid/view/MenuItem;->getOrder()I
+
+    move-result v5
+
+    # Add speed test item with order = nav_about_order - 1
+    sub-int/lit8 v5, v5, 0x1
+
+    sget v6, Lio/nekohasekai/sagernet/R$id;->nav_speed_test:I
+
+    const/4 v1, 0x0
+
+    invoke-interface {v3, v1, v6, v5}, Landroid/view/Menu;->add(III)Landroid/view/MenuItem;
+
+    move-result-object v5
+
+    # Set title
+    const-string v6, "Speed Test"
+
+    invoke-interface {v5, v6}, Landroid/view/MenuItem;->setTitle(Ljava/lang/CharSequence;)Landroid/view/MenuItem;
+
+    # Set icon
+    sget v6, Lio/nekohasekai/sagernet/R$drawable;->ic_baseline_speed_24:I
+
+    invoke-interface {v5, v6}, Landroid/view/MenuItem;->setIcon(I)Landroid/view/MenuItem;
+
+    # Make it checkable
+    const/4 v6, 0x1
+
+    invoke-interface {v5, v6}, Landroid/view/MenuItem;->setCheckable(Z)Landroid/view/MenuItem;
+
+    # --- End of Speed Test menu item addition ---
 
     .line 236
     invoke-virtual {p0}, Landroidx/appcompat/app/AppCompatActivity;->getResources()Landroid/content/res/Resources;

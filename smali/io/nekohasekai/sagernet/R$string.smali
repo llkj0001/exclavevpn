@@ -64,6 +64,26 @@
 
 .field public static action_shadowtls:I = 0x7f120033
 
+.field public static speed_test:I = 0x7f1202f4
+
+.field public static speed_test_title:I = 0x7f1202f5
+
+.field public static speed_test_download:I = 0x7f1202f6
+
+.field public static speed_test_upload:I = 0x7f1202f7
+
+.field public static speed_test_ping:I = 0x7f1202f8
+
+.field public static speed_test_country:I = 0x7f1202f9
+
+.field public static speed_test_start:I = 0x7f1202fa
+
+.field public static speed_test_running:I = 0x7f1202fb
+
+.field public static speed_test_mbps:I = 0x7f1202fc
+
+.field public static speed_test_ms:I = 0x7f1202fd
+
 .field public static action_socks:I = 0x7f120034
 
 .field public static action_ssh:I = 0x7f120035

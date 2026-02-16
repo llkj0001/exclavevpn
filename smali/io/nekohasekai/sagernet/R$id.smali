@@ -328,6 +328,32 @@
 
 .field public static nav_traffic:I = 0x7f0901e2
 
+.field public static nav_speed_test:I = 0x7f0901e5
+
+.field public static speed_test_fragment_holder:I = 0x7f0901e6
+
+.field public static speed_test_download_value:I = 0x7f0901e7
+
+.field public static speed_test_upload_value:I = 0x7f0901e8
+
+.field public static speed_test_ping_value:I = 0x7f0901e9
+
+.field public static speed_test_country_value:I = 0x7f0901ea
+
+.field public static speed_test_start_btn:I = 0x7f0901eb
+
+.field public static speed_test_status:I = 0x7f0901ec
+
+.field public static speed_test_progress:I = 0x7f0901ed
+
+.field public static speed_test_download_label:I = 0x7f0901ee
+
+.field public static speed_test_upload_label:I = 0x7f0901ef
+
+.field public static speed_test_ping_label:I = 0x7f0901f0
+
+.field public static speed_test_country_label:I = 0x7f0901f1
+
 .field public static nav_view:I = 0x7f0901e3
 
 .field public static nav_view_black:I = 0x7f0901e4

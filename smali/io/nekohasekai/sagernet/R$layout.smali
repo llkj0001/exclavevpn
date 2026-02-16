@@ -98,6 +98,8 @@
 
 .field public static layout_traffic_list:I = 0x7f0c005b
 
+.field public static layout_speed_test:I = 0x7f0c005d
+
 .field public static layout_v2ray_plugin:I = 0x7f0c005c
 
 
